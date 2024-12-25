@@ -9,7 +9,7 @@ print(tips.head())
 # visualization of data
 sns.relplot(data=tips, x = 'total_bill', y = 'tip', col = 'time', hue = 'smoker', style = 'smoker', size = 'size')
 plt.show()
-
+# i think hue 
 # import seaborn as sns
 # import matplotlib.pyplot as plt
 
